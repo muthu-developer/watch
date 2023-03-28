@@ -1,0 +1,78 @@
+/* mobile */
+@media screen and (max-width: 1023px) {
+    section {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .vedio {
+        transform: scale(1.5);
+    }
+
+    .watch_body {
+        height: calc(100vh);
+    }
+
+    .clock_container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden
+    }
+
+    .clock_container .clock-circle h1 {
+        font-size: 75px;
+        letter-spacing: 2px;
+    }
+    .date_container h1{
+        font-size: 50px;
+    }
+
+    .clock_container .clock-circle h1 span.session {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    section {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .vedio {
+        transform: scale(1.5);
+    }
+
+    .watch_body {
+        height: calc(100vh);
+    }
+
+    .date_container h1{
+        font-size: 25px;
+    }
+
+    .clock_container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden
+    }
+
+    .clock_container .clock-circle h1 {
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+
+    .clock_container .clock-circle h1 span.session {
+        font-size: 20px;
+    }
+}

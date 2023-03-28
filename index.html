@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Watch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/Image/watch.png">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="stylesheet" href="./Assets/Css/responsive.css">
+</head>
+
+<body>
+    <section>
+        <div class="vedio">
+            <video width="100%" autoplay muted loop>
+                <source src="./Assets/Image/video.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+            </video>
+        </div>
+        <div class="watch_wrapper">
+            <div class="watch-section">
+                <div class="container">
+                    <div class="watch_body">
+                        <div class="date_container">
+                            <h1 style="color:#fff" id="date"></h1>
+                        </div>
+                        <div class="clock_container">
+                            <div class="clock-circle">
+                                <h1>
+                                    <span id="time"></span>
+                                    <span class="session" id="session"></span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./Assets/JS/main.js"></script>
+</body>
+
+</html>
